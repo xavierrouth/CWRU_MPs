@@ -46,7 +46,7 @@ public class NGon extends Polygon implements RegularPolygon{
         NGon newNGon = new NGon(this.getCenter(), this.getNumSides(),
                 newSideLength);
         // Go through the old points and set them to the same values of the old
-        points
+        // points
         for (int i = 0; i < this.points.length; i++) {
             this.points[i].setX(newNGon.points[i].getX());
             this.points[i].setY(newNGon.points[i].getY());
